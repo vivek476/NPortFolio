@@ -1,16 +1,11 @@
 import React from "react";
-import ReactDOM from "react-dom"; // React 17 uses this
-import "./index.css";
+import { createRoot } from "react-dom/client"; // ✅ React 18 uses this
 import App from "./App";
-import reportWebVitals from "./reportWebVitals";
+import "./index.css";
 
-// ✅ React 17 way to render
-ReactDOM.render(
+const root = createRoot(document.getElementById("root"));
+root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-  document.getElementById("root")
+  </React.StrictMode>
 );
-
-// Optional performance reporting
-reportWebVitals();
