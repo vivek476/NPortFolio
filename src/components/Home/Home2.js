@@ -19,7 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-             Hi, I'm Vivek Solanki, a passionate and driven Full-Stack Developer with hands-on experience in building web applications.
+             Hello, I'm Vivek Solanki, a passionate and driven Full-Stack Developer with hands-on experience in building web applications.
               <br />
               <br />I'm proficient in language like
               <i>
