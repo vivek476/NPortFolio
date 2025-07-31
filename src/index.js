@@ -1,16 +1,16 @@
 import React from "react";
-import ReactDOM from "react-dom/client"; // <-- updated import
+import ReactDOM from "react-dom"; // React 17 uses this
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-// ✅ New React 18+ way
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
+// ✅ React 17 way to render
+ReactDOM.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById("root")
 );
 
-// Performance reporting (optional)
+// Optional performance reporting
 reportWebVitals();
