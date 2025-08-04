@@ -31,7 +31,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Creation should not be merely for construction, but for the expansion of consciousness."{" "}
+            "Creation should not be only for material construction, but also for the awakening of consciousness."{" "}
           </p>
           <footer className="blockquote-footer">Vivek</footer>
         </blockquote>
