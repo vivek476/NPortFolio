@@ -8,7 +8,7 @@ function Type() {
         strings: [
           "Full-Stack Developer | React.js & .NET Core Specialist",
           "UI/UX Explorer",
-          "Junior Full-Stack Developer",
+          "Full-Stack Developer",
           "Cloud & API Integrator",
         ],
         autoStart: true,

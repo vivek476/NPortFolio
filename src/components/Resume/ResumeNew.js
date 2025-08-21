@@ -3,8 +3,11 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
-import pdf from "../../Assets/VivS_Resume.pdf"; // Make sure path is correct
-import img from "../../Assets/VivS_Resume.jpg"; // Make sure path is correct
+//import pdf from "../../Assets/VivS_Resume.pdf"; // Make sure path is correct
+//import img from "../../Assets/VivS_Resume.jpg"; // Make sure path is correct
+import img1 from "../../Assets/VivS_CV_page-1.jpg"; // Make sure path is correct
+import img2 from "../../Assets/VivS_CV_page-2.jpg"; // Make sure path is correct
+import pdf from "../../Assets/VivS_CV.pdf"; // Ensure this is the correct path to your PDF
 
 function ResumeNew() {
   return (
@@ -28,7 +31,12 @@ function ResumeNew() {
 
         <Row className="justify-content-center mt-4">
           <img
-            src={img}
+            src={img1}
+            alt="Resume Banner"
+            style={{ maxWidth: "35%", height: "auto", borderRadius: "10px" }}
+          />
+          <img
+            src={img2}
             alt="Resume Banner"
             style={{ maxWidth: "35%", height: "auto", borderRadius: "10px" }}
           />

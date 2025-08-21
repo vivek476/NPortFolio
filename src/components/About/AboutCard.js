@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Vivek Solanki </span>
             from <span className="purple"> Indore, India.</span>
             <br />
-            Aspiring Junior .NET Developer with 6 months of practical experience in full-stack development at Shiwansh Solutions.
+            Completed a 1 Year of practical experience in full-stack development at Shiwansh Solutions.
             <br />
             Skilled in building and deploying scalable web applications using .NET Core and React.js.
             <br />
